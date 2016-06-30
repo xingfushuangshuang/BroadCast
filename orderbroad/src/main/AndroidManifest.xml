@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orderbroad">
+
+    <permission android:name="android.zhidisoft.broad"></permission>
+    <uses-permission android:name="android.zhidisoft.broad"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fivef"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".thirdBroad"
+            android:permission="ture">
+            <intent-filter android:priority="998">
+                <action android:name="android.zhidisoft.broad"></action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".FirstBroad"
+            android:permission="ture">
+            <intent-filter android:priority="1000">
+                <action android:name="android.zhidisoft.broad"></action>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".SecBroad"
+            android:permission="ture">
+            <intent-filter android:priority="999">
+                <action android:name="android.zhidisoft.broad"></action>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

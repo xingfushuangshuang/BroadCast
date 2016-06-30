@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BroadCastTest.iml" filepath="$PROJECT_DIR$/BroadCastTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootcompletedbroad/bootcompletedbroad.iml" filepath="$PROJECT_DIR$/bootcompletedbroad/bootcompletedbroad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkstatetest/networkstatetest.iml" filepath="$PROJECT_DIR$/networkstatetest/networkstatetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderbroad/orderbroad.iml" filepath="$PROJECT_DIR$/orderbroad/orderbroad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timedowntest/timedowntest.iml" filepath="$PROJECT_DIR$/timedowntest/timedowntest.iml" />
+    </modules>
+  </component>
+</project>
